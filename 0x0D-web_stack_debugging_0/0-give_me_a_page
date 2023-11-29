@@ -1,4 +1,4 @@
-#!usr/bin/env bash
-# install apache
+#!/usr/bin/env bash
+# script to initialize server 
 
 service apache2 start
