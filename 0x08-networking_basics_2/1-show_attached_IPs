@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Show attached internet protocol adreses
-ifconfig | grep "inet " | tr ":" " " | awk '{print $3}'
